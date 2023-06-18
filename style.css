@@ -1,0 +1,59 @@
+.header{
+    background-color: #dedbd6;
+    position: relative;
+}
+.menu{
+    overflow: hidden;
+    width: 510px;
+    margin: 0 auto;
+    position: sticky;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    background-color:#2f124a;
+    color:#14f4f4;
+}
+
+.marginPadding{
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    margin:30px;
+    overflow: hidden;
+}
+
+.marginPadding p{
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+}
+.child1{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+.child2{
+    background-color: rgb(184, 169, 150);
+    padding: 20px;
+}
+.child3{
+    background-color: rgb(104, 96, 85);
+    padding: 40px;
+}
+
